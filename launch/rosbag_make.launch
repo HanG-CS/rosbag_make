@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+<!--    <node pkg="rosbag_make" name="rosbag_make" type="rosbag_make" output="screen" clear_params="true" launch-prefix="gdb -ex run &#45;&#45;args">
+        <param name="config_file" type="string" value="$(find rosbag_make)/config/config.yaml" />
+    </node>-->
+
+    <node pkg="rosbag_make" name="rosbag_make" type="rosbag_make" output="screen">
+        <param name="config_file" type="string" value="$(find rosbag_make)/config/config.yaml" />
+    </node>
+</launch>
