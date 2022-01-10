@@ -46,3 +46,4 @@ csv文件其实就是文本文件，每行字段用逗号分隔，每行最后�
 ```
 sensor_msgs::ImuPtr imu_msg(new sensor_msgs::Imu); //即使是ros的智能指针也要new
 ```
+
