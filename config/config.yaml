@@ -2,10 +2,10 @@
 #使用cvOpenFileStorage务必加在最顶上
 
 #from: euroc格式下mav0文件夹中的两个文件夹
-cam_path: "/home/jerry/Dataset/RS/STNEAR/02c/p20/mav0/cam0"
-imu_path: "/home/jerry/Dataset/RS/STNEAR/02c/p20/mav0/imu0"
+cam_path: "/home/jerry/Dataset/ip7/mav0/cam0"
+imu_path: "/home/jerry/Dataset/ip7/mav0/imu0"
 
 #to
 image_topic: "/camera0/image_raw"
 imu_topic: "/imu0"
-tobag_path: "/home/jerry/newp20.bag"
+tobag_path: "/home/jerry/nearip7.bag"

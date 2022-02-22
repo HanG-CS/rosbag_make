@@ -80,7 +80,7 @@ int main(int argc, char** argv)
       vec.push_back(element);
     }
 
-    assert(vec.size() == 8);
+    assert(vec.size() == 7);
     long timestamp = std::stol(vec[0]);
 
     sensor_msgs::ImuPtr imu_msg(new sensor_msgs::Imu); //即使是ros的智能指针也要new
@@ -103,7 +103,7 @@ int main(int argc, char** argv)
 //    imu_msg.linear_acceleration.y = std::stof(vec[5]);
 //    imu_msg.linear_acceleration.z = std::stof(vec[6].substr(0, vec[6].size() - 1));
 
-    newbag.write(IMU_TOPIC, imu_msg->header.stamp, imu_msg);
+    //newbag.write(IMU_TOPIC, imu_msg->header.stamp, imu_msg);
   }
 
 
